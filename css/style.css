@@ -1,0 +1,45 @@
+body{
+    background-image: url(../images/11.avif);
+    background-size: cover;
+    background-position: center center;
+}
+
+section{
+    background-color: transparent;
+    /* box-shadow: 1px 2px 1px  -4px  inset;
+    padding: 10px; */
+
+    /* box-shadow: 0px 0px  0px 1px rgba(136, 136, 136, 0.3);
+     */
+     box-shadow: -5px 2px 54px -9px rgba(136, 136, 136, 0.3);
+     font-family: 'Times New Roman', Times, serif;
+
+     
+}
+#logOut{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+h1{
+    font-size: 50px;
+    color: #F7DED0;
+    font-weight: bolder;
+}
+label{
+    font-size: 30px;
+}
+.contain{
+    font-weight: bold;
+    font-size: 30px;
+    color: #E0CCBE !important;
+}
+
+a{
+    color: #F28585 !important;
+}
+
+#LoginBtn ,
+#LogupBtn{
+    font-size: 20px;
+    font-weight: bold;
+}

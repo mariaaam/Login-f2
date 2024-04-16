@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<main class="pt-5 text-light fw-bolder">
+    <section class="container mt-5 w-50 bg-opacity-10 bg-light rounded-5  px-5 pb-3">
+      <h1 class="text-center  fw-bold pt-3">Smart Login System</h1>
+    <form class=" mt-4">
+       
+
+        <div class="mb-3  ">
+            <label for="InputName" class="form-label  ">User Name : </label>
+            <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp " placeholder="Enter Your Name">
+          </div>
+
+        <div class="mb-3  ">
+          <label for="InputEmail1" class="form-label  ">Email : </label>
+          <input type="email" class="form-control" id="InputEmail1" placeholder="Enter Your Email" aria-describedby="emailHelp">
+        </div>
+        <p class="bg-danger bg-opacity-25 text-center fs-4 " id="error"></p>
+        <div class="mb-3">
+          <label for="InputPassword1" class="form-label ">Password :</label>
+          <input type="password" class="form-control " id="InputPassword1" placeholder="Enter Your Password">
+        </div>
+        <p id="errorPass" class="bg-danger bg-opacity-25 text-center fs-6 "></p>
+       
+
+        <p id="contain" class="bg-danger text-center fs-4 bg-opacity-50"></p>
+       
+        <button class="btn btn-outline-success my-2 w-100" type="button" id="LogupBtn" onclick="add()">sign up</button>
+       
+        
+        <p class=" text-center contain">
+          you have an account?
+          <a  href="index.html">sign in</a>
+        </p>
+      </form>
+
+
+    </section></main>
+
+<script src="js/logup.js"></script>
+</body>
